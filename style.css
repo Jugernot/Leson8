@@ -1,0 +1,81 @@
+.long_line{
+     width: 40%;
+     height: 200px;
+    background-color: rgb(21, 27, 104);
+    border-radius: 10px;}
+li{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+} 
+li:hover{
+    font-size: 30px;
+}
+
+.long_line:hover{width: 100%;}
+.Text_comics:hover{width: 10%; height: 20%;}
+
+.smoll_cube{
+    width: 100%; 
+    height: 250px;
+    background-color: rgb(15, 19, 73);
+    margin-block-start: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.smoll{
+    opacity: 0.8;
+    width: 75px;
+    height: 100px;
+    background-color: rgb(253, 253, 253);
+    animation-name: cube; 
+    animation-direction: 2s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    animation-direction:
+}
+.css_images{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+.img_DC{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+.thee_compani{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.imag{
+    width: 525px;
+    height: 250px;
+} 
+.main_wiki{
+    display: flex;
+    justify-content: right;
+}
+.images_company{
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+.text_company{
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+.im{
+    width: 500px;
+    height: 250px;
+}
+.tex{
+    width: 500px;
+    height: 250px;
+}
+
