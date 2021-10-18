@@ -13,7 +13,6 @@ li:hover{
 
 .long_line:hover{width: 100%;}
 .Text_comics:hover{width: 10%; height: 20%;}
-
 .smoll_cube{
     width: 100%; 
     height: 250px;
@@ -28,12 +27,17 @@ li:hover{
     width: 75px;
     height: 100px;
     background-color: rgb(253, 253, 253);
-    animation-name: cube; 
-    animation-direction: 2s;
-    animation-delay: 1s;
-    animation-iteration-count:infinite;
-    animation-direction:
+    animation: cube 2s infinite alternate;
+    transform: skewX(20deg);
 }
+@keyframes cube{
+      0% {
+        transform: skewX(20deg);
+      }
+      100% {
+        transform: skewX(-20deg);
+      }
+}   
 .css_images{
     width: 100%;
     height: 10%;
